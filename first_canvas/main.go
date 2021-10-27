@@ -15,7 +15,6 @@ func main() {
 	w.Resize(fyne.NewSize(400, 400))
 	colorX := color.NRGBA{R: 0, G: 255, B: 0, A: 255}
 	textX := canvas.NewText("This is the text", colorX)
-	img := canvas.NewImageFromFile("./47.jpg")
 	w.SetContent(textX)
 	w.ShowAndRun()
 }
