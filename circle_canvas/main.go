@@ -15,7 +15,9 @@ func main() {
 	w.Resize(fyne.NewSize(400, 400))
 
 	// canvaCircle := canvas.NewCircle(color.Black)
-	canvaCircle := canvas.NewCircle(color.NRGBA{R: 255, G: 0, B: 255, A: 255})
-	w.SetContent(canvaCircle)
+	circle1 := canvas.NewCircle(color.NRGBA{R: 255, G: 0, B: 255, A: 255})
+	circle1.StrokeColor = color.Black
+	circle1.StrokeWidth = 3
+	w.SetContent(circle1)
 	w.ShowAndRun()
 }
