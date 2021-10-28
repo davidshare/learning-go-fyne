@@ -9,7 +9,7 @@ import (
 func main() {
 	canvasApp := app.New()
 
-	w := canvasApp.NewWindow("My Canvas Text tutorial")
+	w := canvasApp.NewWindow("My Image Canvas")
 	w.Resize(fyne.NewSize(400, 400))
 	img := canvas.NewImageFromFile("./47.jpg")
 	w.SetContent(img)

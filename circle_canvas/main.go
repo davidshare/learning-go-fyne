@@ -11,7 +11,7 @@ import (
 func main() {
 	canvasApp := app.New()
 
-	w := canvasApp.NewWindow("My Canvas Text tutorial")
+	w := canvasApp.NewWindow("My Circle Canvas")
 	w.Resize(fyne.NewSize(400, 400))
 
 	// canvaCircle := canvas.NewCircle(color.Black)
